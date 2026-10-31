@@ -1,4 +1,13 @@
-# Employee Management System
+# Employee Management System — Full-Stack Administration System
+
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-5.2+-092E20?style=flat&logo=django&logoColor=white)
+![DRF](https://img.shields.io/badge/DRF-3.18+-a30000?style=flat&logo=django&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-17-DD0031?style=flat&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.4-3178C6?style=flat&logo=typescript&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-Ready-4479A1?style=flat&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-Dev-003B57?style=flat&logo=sqlite&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-4c1?style=flat)
 
 A full-stack employee administration system built with Angular, Django REST Framework, and MySQL.
 
