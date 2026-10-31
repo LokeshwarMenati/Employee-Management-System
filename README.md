@@ -7,6 +7,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.4-3178C6?style=flat&logo=typescript&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-Ready-4479A1?style=flat&logo=mysql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-Dev-003B57?style=flat&logo=sqlite&logoColor=white)
+[![Vercel](https://img.shields.io/badge/%E2%96%B2_Vercel-Live_Production-00DF8F?style=flat)](https://employee-management-system-delta-tan.vercel.app)
 ![License](https://img.shields.io/badge/License-MIT-4c1?style=flat)
 
 A full-stack employee administration system built with Angular, Django REST Framework, and MySQL.
