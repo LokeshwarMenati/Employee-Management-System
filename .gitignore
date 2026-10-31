@@ -1,0 +1,18 @@
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.sqlite3
+backend/.env
+*.py[cod]
+
+# Angular / Node
+frontend/employee-app/node_modules/
+frontend/employee-app/dist/
+frontend/employee-app/.angular/
+
+# IDE / OS
+.vscode/
+.idea/
+*.log
+Thumbs.db

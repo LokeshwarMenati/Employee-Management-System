@@ -1,0 +1,10 @@
+import { Routes } from '@angular/router';
+import { authGuard } from './core/auth.guard';
+import { LoginComponent } from './pages/login.component';
+import { DashboardComponent } from './pages/dashboard.component';
+import { EmployeesComponent } from './pages/employees.component';
+import { DepartmentsComponent } from './pages/departments.component';
+import { AttendanceComponent } from './pages/attendance.component';
+import { ProfileComponent } from './pages/profile.component';
+import { OperationsComponent } from './pages/operations.component';
+export const routes:Routes=[{path:'login',component:LoginComponent},{path:'',canActivate:[authGuard],children:[{path:'',redirectTo:'dashboard',pathMatch:'full'},{path:'dashboard',component:DashboardComponent},{path:'employees',component:EmployeesComponent},{path:'departments',component:DepartmentsComponent},{path:'attendance',component:AttendanceComponent},{path:'profile',component:ProfileComponent},{path:'leave',component:OperationsComponent,data:{section:'leave'}},{path:'timesheets',component:OperationsComponent,data:{section:'timesheets'}},{path:'payroll',component:OperationsComponent,data:{section:'payroll'}},{path:'documents',component:OperationsComponent,data:{section:'documents'}},{path:'audit',component:OperationsComponent,data:{section:'audit'}},{path:'reports',component:OperationsComponent,data:{section:'reports'}},{path:'self-service',component:OperationsComponent,data:{section:'self-service'}}]},{path:'**',redirectTo:''}];
